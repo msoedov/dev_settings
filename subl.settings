@@ -1,0 +1,9 @@
+[
+	{ "keys": ["ctrl+shift+q"], "command": "exit" },
+	{ "keys": ["ctrl+n"], "command": "new_window" },
+	{ "keys": ["ctrl+q"], "command": "close_file" },
+	{ "keys": ["ctrl+1"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+	{ "keys": ["alt+left"], "command": "next_view_in_stack" },
+	{ "keys": ["alt+right"], "command": "prev_view_in_stack" }
+]
